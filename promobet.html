@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promotion de codes promo</title>
+    <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+
+  <header>
+    <h1>PROMOBET - Meilleurs Codes Promo</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Accueil</a></li>
+        <li><a href="#codes">Codes Promo</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+ <section id="home">
+    <h2>Bienvenue sur PROMOBET</h2>
+    <p>Découvrez les meilleures offres et codes promotionnels pour vos paris sportifs préférés.</p>
+  </section>
+  <section id="codes">
+    <h2>Nos Codes Promo</h2>
+    <input type="text" id="search" placeholder="Rechercher de nos code promo...">
+    <div id="codes">
+        
+    <ul id="promo-list">
+      <!-- Les codes promo seront injectés ici par JavaScript -->
+    </ul>
+      <img class="slides active" src="images/2.jpg" alt="Promo 1" width="100%">
+      <img class="slides" src="images/3.jpg" alt="Promo 2" width="100%">
+      <img class="slides" src="images/4.jpg" alt="Promo 3" width="100%">
+      <img class="slides" src="images/5.jpg" alt="Promo 4" width="100%">
+      <img class="slides" src="images/6.jpg" alt="Promo 5" width="100%">
+      <img class="slides" src="images/7.jpg" alt="Promo 6" width="100%">
+      <div class="slider-buttons">
+          <button onclick="prevSlide()">Précédent</button>
+          <button onclick="nextSlide()">Suivant</button>
+      </div>
+  </div>
+
+  </section>
+
+  <section id="contact">
+    <h2>Contactez-nous</h2>
+    <form>
+      <input type="text" placeholder="Votre nom" required>
+      <input type="email" placeholder="Votre email" required>
+      <textarea placeholder="Votre message" required></textarea>
+      <button type="submit">Envoyer</button>
+    </form>
+  </section>
+
+  <!-- Notification -->
+  <div id="notification" class="hidden"></div>
+
+  <footer>
+    <p>&copy; 2024 PROMOBET- Tous droits réservés</p>
+  </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
